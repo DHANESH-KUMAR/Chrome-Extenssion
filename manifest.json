@@ -15,15 +15,14 @@
     "default_title": "Dhanesh Utility"
   },
   "background": {
-    "scripts": ["eventPage.js"],
+    "scripts": ["eventpage.js"],
     "persistent": false
   },
   "content_scripts": [
     {
       "matches": ["https://www.google.com/"],
-      "js": ["content.js", "jquery.min.js"]
+      "js": ["content.js"]
     }
   ],
-
   "permissions": ["tabs", "storage"]
 }
