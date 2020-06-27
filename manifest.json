@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Dhanesh Kumar",
+  "description": "Done Some Utility on Particular URL",
+  "version": "1.0",
+  "icons": {
+    
+    "128": "./images/icon128.png",
+    "64": "./images/icon64.png",
+    "16": "./images/icon16.png"
+  },
+
+  "browser_action": {
+    "default_popup": "./popup.html",
+    "default_icon": "./images/icon16.png",
+    "default_title": "Dhanesh Utility"
+  },
+  "permissions": ["tabs", "storage"]
+}
